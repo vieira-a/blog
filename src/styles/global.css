@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@layer base {
+  body {
+    @apply bg-zinc-900;
+    @apply text-zinc-400;
+    @apply text-base;
+  }
+}

@@ -1,5 +1,8 @@
+import "./styles/global.css";
+import Navbar from "./components/Navbar";
+
 function App() {
-  return <div>aspira.dev</div>;
+  return <Navbar />;
 }
 
 export default App;
