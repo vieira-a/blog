@@ -13,7 +13,7 @@ function App() {
 
   return (
     <section className={`${darkMode ? "dark" : "light"}`}>
-      <Navbar />
+      <Navbar dark={darkMode} />
       <div className="text-right p-6">
         <button
           aria-label="Change between dark and light mode"

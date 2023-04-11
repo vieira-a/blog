@@ -9,11 +9,22 @@
     @apply text-zinc-400;
     @apply text-base;
   }
+
+  .dark {
+    @apply bg-zinc-800;
+    @apply text-zinc-50;
+  }
+
   .light {
     @apply bg-zinc-50;
     @apply text-zinc-800;
   }
   .light h1 {
+    @apply text-zinc-800;
+  }
+
+  nav.light {
+    @apply bg-purple-300;
     @apply text-zinc-800;
   }
 }

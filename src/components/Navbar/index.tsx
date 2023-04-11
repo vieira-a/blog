@@ -3,7 +3,11 @@ import Logo from "../Logo";
 import Menu from "../Menu";
 import { useState } from "react";
 
-export default function Navbar() {
+interface NavbarProps {
+  dark: boolean;
+}
+
+export default function Navbar({ dark }: NavbarProps) {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
 
   const handleMenu = () => {
@@ -15,13 +19,17 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-purple-800 flex justify-between px-3 py-5 rounded-bl-xl rounded-tr-xl cursor-pointer">
+    <nav
+      className={`bg-purple-800 flex justify-between px-3 py-5 rounded-bl-xl rounded-tr-xl cursor-pointer ${
+        dark ? "dark" : "light"
+      }`}
+    >
       <Logo />
       {openMenu ? (
-        <Menu open={openMenu} setOpen={handleMenu} />
+        <Menu open={openMenu} setOpen={handleMenu} dark={dark} />
       ) : (
         <button onClick={handleMenu}>
-          <IoApps className="text-zinc-900 text-2xl" />
+          <IoApps className="text-2xl" />
         </button>
       )}
     </nav>
