@@ -9,4 +9,11 @@
     @apply text-zinc-400;
     @apply text-base;
   }
+  .light {
+    @apply bg-zinc-50;
+    @apply text-zinc-800;
+  }
+  .light h1 {
+    @apply text-zinc-800;
+  }
 }

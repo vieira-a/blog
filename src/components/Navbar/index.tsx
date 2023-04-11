@@ -14,8 +14,6 @@ export default function Navbar() {
     }
   };
 
-  console.log(openMenu);
-
   return (
     <nav className="bg-purple-800 flex justify-between px-3 py-5 rounded-bl-xl rounded-tr-xl cursor-pointer">
       <Logo />
