@@ -3,6 +3,7 @@ import { IoMoonOutline, IoSunny } from "react-icons/io5";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState<boolean>(true);
@@ -28,6 +29,7 @@ function App() {
       </div>
       <main>
         <Hero />
+        <Footer />
       </main>
     </section>
   );
