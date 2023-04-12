@@ -10,21 +10,39 @@
     @apply text-base;
   }
 
-  .dark {
-    @apply bg-zinc-900;
+  .light {
+    @apply bg-zinc-100;
+  }
+
+  .light a {
+    @apply text-zinc-900;
+  }
+
+  .dark h1,
+  h2,
+  h3,
+  h4,
+  h5 a {
+    @apply text-zinc-50;
+  }
+
+  .light h1,
+  h2,
+  h3,
+  h4,
+  h5 a {
+    @apply text-zinc-900;
+  }
+
+  .dark p {
     @apply text-zinc-400;
   }
 
-  .light {
-    @apply bg-zinc-50;
-    @apply text-zinc-900;
-  }
-  .light h1 {
+  .light p {
     @apply text-zinc-900;
   }
 
   nav.light {
     @apply bg-purple-300;
-    @apply text-zinc-900;
   }
 }
