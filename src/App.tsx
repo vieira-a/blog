@@ -6,6 +6,7 @@ import Post from "./components/Post";
 import { useState } from "react";
 import Footer from "./components/Footer";
 import PostFeatured from "./components/Post/PostFeatured";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   const [darkMode, setDarkMode] = useState<boolean>(true);
@@ -48,6 +49,7 @@ function App() {
         <Hero />
         <PostFeatured featuredPosts={FeaturedPosts} />
         <Post />
+        <Newsletter />
         <Footer />
       </main>
     </section>
