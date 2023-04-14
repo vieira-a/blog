@@ -1,7 +1,7 @@
-import { ReactElement } from "react";
+import { ReactElement, ReactNode } from "react";
 
 interface ButtonProps {
-  children: ReactElement;
+  children: ReactNode;
   className: string;
 }
 
