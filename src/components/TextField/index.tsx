@@ -17,7 +17,7 @@ export default function TextField({
       placeholder={placeholder}
       value={value}
       onChange={onChange}
-      className="w-full px-2 py-3"
+      className="w-full px-2 py-3 bg-transparent rounded-md border border-zinc-800"
     />
   );
 }
