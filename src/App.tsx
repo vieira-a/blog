@@ -2,6 +2,7 @@ import "./styles/global.css";
 import { IoMoonOutline, IoSunny } from "react-icons/io5";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Post from "./components/Post";
 import { useState } from "react";
 import Footer from "./components/Footer";
 import PostFeatured from "./components/Post/PostFeatured";
@@ -46,6 +47,7 @@ function App() {
       <main>
         <Hero />
         <PostFeatured featuredPosts={FeaturedPosts} />
+        <Post />
         <Footer />
       </main>
     </section>
