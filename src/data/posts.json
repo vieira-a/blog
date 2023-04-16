@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "date": "16/04/2023",
+      "title": "Titulo do primeiro post",
+      "sumary": "Conteúdo do primeiro post. Deve conter no máximo 3 linhas",
+      "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo."
+    },
+    {
+      "id": 2,
+      "date": "16/04/2023",
+      "title": "Titulo do segundo post",
+      "sumary": "Conteúdo do primeiro post. Deve conter no máximo 3 linhas",
+      "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo."
+    },
+    {
+      "id": 3,
+      "date": "16/04/2023",
+      "title": "Titulo do terceiro post",
+      "sumary": "Conteúdo do primeiro post. Deve conter no máximo 3 linhas",
+      "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo."
+    }
+  ]
+}
