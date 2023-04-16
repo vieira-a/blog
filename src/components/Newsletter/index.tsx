@@ -10,7 +10,7 @@ export default function Newsletter() {
         quiser.
       </p>
       <div className="flex gap-3">
-        <TextField type="email" placeholder="seuemail@seuprovedor.com" />
+        <TextField type="email" placeholder="email@provedor.com.br" />
         <Button className="bg-purple-800 text-zinc-50 px-1 py-3 rounded">
           Enviar
         </Button>
