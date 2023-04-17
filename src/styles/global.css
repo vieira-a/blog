@@ -22,15 +22,19 @@
     @apply bg-zinc-100;
   }
 
-  .light h1,
-  h2,
-  h3,
-  h4,
-  h5 a {
+  .light h1 {
+    @apply text-zinc-900;
+  }
+
+  .light h2 {
     @apply text-zinc-900;
   }
 
   .light p {
+    @apply text-zinc-900;
+  }
+
+  .light a {
     @apply text-zinc-900;
   }
 

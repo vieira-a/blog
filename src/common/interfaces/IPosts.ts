@@ -5,6 +5,7 @@ export interface IPosts {
     title: string;
     sumary: string;
     content: string;
+    featured?: boolean;
   }[];
 }
 
@@ -13,4 +14,10 @@ export interface IPostsCard {
   title: string;
   sumary: string;
   content?: string;
+  featured?: boolean;
+}
+
+export interface IFeaturedPosts {
+  id: number;
+  title: string;
 }

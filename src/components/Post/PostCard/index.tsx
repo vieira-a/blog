@@ -1,7 +1,6 @@
 import { IoCaretForwardOutline } from "react-icons/io5";
 import Button from "../../Button";
 import { IPostsCard } from "src/common/interfaces/IPosts";
-import Markdown from "markdown-to-jsx";
 
 export default function PostCard({ date, title, sumary }: IPostsCard) {
   return (
