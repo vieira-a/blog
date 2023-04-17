@@ -5,7 +5,9 @@ import { IoCaretForwardOutline } from "react-icons/io5";
 
 export default function Post() {
   const data = postData as IPosts;
-  const lastPosts = data.posts.slice(5, data.posts.length).reverse();
+  const lastPosts = data.posts
+    .slice(data.posts.length - 5, data.posts.length)
+    .reverse();
 
   return (
     <>
