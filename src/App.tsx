@@ -1,11 +1,10 @@
-import "./styles/global.css";
+import { useState } from "react";
 import { IoMoonOutline, IoSunny } from "react-icons/io5";
+import "./styles/global.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Post from "./components/Post";
-import { useState } from "react";
 import Footer from "./components/Footer";
-//import PostFeatured from "./components/Post/PostFeatured";
 import Newsletter from "./components/Newsletter";
 
 function App() {

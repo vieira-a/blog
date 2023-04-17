@@ -5,6 +5,7 @@ import { IoCaretForwardOutline } from "react-icons/io5";
 
 export default function Post() {
   const data = postData as IPosts;
+  const lastPosts = data.posts.slice(5, data.posts.length).reverse();
 
   return (
     <>
@@ -23,7 +24,7 @@ export default function Post() {
         </ul>
       </section>
       <section className="mx-6 p-6">
-        {data.posts.map((post) => {
+        {lastPosts.map((post) => {
           return (
             <article key={post.id}>
               <PostCard
