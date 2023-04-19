@@ -3,6 +3,7 @@ export interface IPosts {
     id: number;
     date: string;
     title: string;
+    slug?: string;
     sumary: string;
     content: string;
     featured?: boolean;
@@ -10,8 +11,10 @@ export interface IPosts {
 }
 
 export interface IPostsCard {
+  id?: number;
   date: string;
   title: string;
+  slug?: string;
   sumary: string;
   content?: string;
   featured?: boolean;

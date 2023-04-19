@@ -4,6 +4,7 @@
       "id": 1,
       "date": "01/03/2023",
       "title": "Titulo do primeiro post",
+      "slug": "titulo-do-primeiro-post",
       "sumary": "Conteúdo do primeiro post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": true
@@ -12,6 +13,7 @@
       "id": 2,
       "date": "08/03/2023",
       "title": "Titulo do segundo post",
+      "slug": "titulo-do-segundo-post",
       "sumary": "Conteúdo do segundo post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": false
@@ -20,6 +22,7 @@
       "id": 3,
       "date": "15/03/2023",
       "title": "Titulo do terceiro post",
+      "slug": "titulo-do-terceiro-post",
       "sumary": "Conteúdo do terceiro post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": true
@@ -28,6 +31,7 @@
       "id": 4,
       "date": "22/03/2023",
       "title": "Titulo do quarto post",
+      "slug": "titulo-do-quarto-post",
       "sumary": "Conteúdo do quarto post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": false
@@ -36,6 +40,7 @@
       "id": 5,
       "date": "29/03/2023",
       "title": "Titulo do quinto post",
+      "slug": "titulo-do-quinto-post",
       "sumary": "Conteúdo do quinto post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": false
@@ -44,6 +49,7 @@
       "id": 6,
       "date": "05/04/2023",
       "title": "Titulo do sexto post",
+      "slug": "titulo-do-sexto-post",
       "sumary": "Conteúdo do sexto post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": false
@@ -52,6 +58,7 @@
       "id": 7,
       "date": "12/04/2023",
       "title": "Titulo do sétimo post",
+      "slug": "titulo-do-setimo-post",
       "sumary": "Conteúdo do sétimo post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": true
@@ -60,6 +67,7 @@
       "id": 8,
       "date": "19/04/2023",
       "title": "Titulo do oitavo post",
+      "slug": "titulo-do-oitavo-post",
       "sumary": "Conteúdo do oitavo post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": false
@@ -68,6 +76,7 @@
       "id": 9,
       "date": "26/04/2023",
       "title": "Titulo do nono post",
+      "slug": "titulo-do-nono-post",
       "sumary": "Conteúdo do nono post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": false
@@ -76,6 +85,7 @@
       "id": 10,
       "date": "03/05/2023",
       "title": "Titulo do décimo post",
+      "slug": "titulo-do-decimo-post",
       "sumary": "Conteúdo do décimo post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": false
@@ -84,6 +94,7 @@
       "id": 11,
       "date": "10/05/2023",
       "title": "Titulo do décimo primeiro post",
+      "slug": "titulo-do-decimo-primeiro-post",
       "sumary": "Conteúdo do décimo primeiro post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": false
@@ -92,6 +103,7 @@
       "id": 12,
       "date": "17/05/2023",
       "title": "Titulo do décimo segundo post",
+      "slug": "titulo-do-decimo-segundo-post",
       "sumary": "Conteúdo do décimo primeiro post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
       "featured": false

@@ -2,6 +2,7 @@ import PostCard from "./PostCard";
 import { IPosts } from "src/common/interfaces/IPosts";
 import postData from "../../data/posts.json";
 import { IoCaretForwardOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 export default function Post() {
   const data = postData as IPosts;
@@ -19,7 +20,9 @@ export default function Post() {
               featuredPost.featured && (
                 <li key={featuredPost.id} className="flex gap-1 items-center">
                   <IoCaretForwardOutline className="text-purple-800" />
-                  <a href={`/post/${featuredPost.id}`}>{featuredPost.title}</a>
+                  <Link to={`/post/${featuredPost.id}`}>
+                    {featuredPost.title}
+                  </Link>
                 </li>
               )
           )}
@@ -30,10 +33,11 @@ export default function Post() {
           return (
             <article key={post.id}>
               <PostCard
-                key={post.id}
+                id={post.id}
                 date={post.date}
                 title={post.title}
                 sumary={post.sumary}
+                slug={post.slug}
               />
             </article>
           );
