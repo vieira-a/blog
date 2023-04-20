@@ -1,11 +1,8 @@
 import { IoApps } from "react-icons/io5";
+import { useState } from "react";
+import { NavbarProps } from "src/common/interfaces/INavbar";
 import Logo from "../Logo";
 import Menu from "../Menu";
-import { useState } from "react";
-
-interface NavbarProps {
-  dark: boolean;
-}
 
 export default function Navbar({ dark }: NavbarProps) {
   const [openMenu, setOpenMenu] = useState<boolean>(false);

@@ -8,15 +8,15 @@ export default function PostContent() {
   const postId = Number(id);
 
   return (
-    <section>
-      <div className="text-right p-6">
+    <section className="w-full h-screen">
+      <div className="p-6">
         {data.posts.map(
           (post) =>
             post.id === postId && (
-              <div key={post.id}>
+              <div key={post.id} className="flex flex-col gap-6">
                 <p>{post.date}</p>
                 <h2>{post.title}</h2>
-                <div>
+                <div className="flex flex-col gap-6">
                   <h4>{post.sumary}</h4>
                   <p>{post.content}</p>
                 </div>
