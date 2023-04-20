@@ -20,7 +20,7 @@ export default function Post() {
               featuredPost.featured && (
                 <li key={featuredPost.id} className="flex gap-1 items-center">
                   <IoCaretForwardOutline className="text-purple-800" />
-                  <Link to={`/post/${featuredPost.id}`}>
+                  <Link to={`/post/${featuredPost.slug}`}>
                     {featuredPost.title}
                   </Link>
                 </li>
@@ -37,6 +37,7 @@ export default function Post() {
                 date={post.date}
                 title={post.title}
                 sumary={post.sumary}
+                slug={post.slug}
               />
             </article>
           );

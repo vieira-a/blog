@@ -31,7 +31,7 @@ export default function App() {
         </div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/post/:id" element={<PostContent />} />
+          <Route path="/post/:slug" element={<PostContent />} />
         </Routes>
       </BrowserRouter>
     </section>

@@ -4,15 +4,14 @@ import { IPosts } from "src/common/interfaces/IPosts";
 
 export default function PostContent() {
   const data = postData as IPosts;
-  const { id } = useParams();
-  const postId = Number(id);
+  const { slug } = useParams();
 
   return (
     <section className="w-full h-screen">
       <div className="p-6">
         {data.posts.map(
           (post) =>
-            post.id === postId && (
+            post.slug === slug && (
               <div key={post.id} className="flex flex-col gap-6">
                 <p>{post.date}</p>
                 <h2>{post.title}</h2>
