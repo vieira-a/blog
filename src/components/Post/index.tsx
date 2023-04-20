@@ -37,7 +37,6 @@ export default function Post() {
                 date={post.date}
                 title={post.title}
                 sumary={post.sumary}
-                slug={post.slug}
               />
             </article>
           );

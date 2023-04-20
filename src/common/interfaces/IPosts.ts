@@ -7,6 +7,7 @@ export interface IPosts {
     sumary: string;
     content: string;
     featured?: boolean;
+    author?: string;
   }[];
 }
 
@@ -18,6 +19,7 @@ export interface IPostsCard {
   sumary: string;
   content?: string;
   featured?: boolean;
+  author?: string;
 }
 
 export interface IFeaturedPosts {

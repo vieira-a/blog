@@ -7,7 +7,8 @@
       "slug": "titulo-do-primeiro-post",
       "sumary": "Conteúdo do primeiro post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": true
+      "featured": true,
+      "author": "Anderson Vieira"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "slug": "titulo-do-segundo-post",
       "sumary": "Conteúdo do segundo post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": false
+      "featured": false,
+      "author": "Anderson Vieira"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "slug": "titulo-do-terceiro-post",
       "sumary": "Conteúdo do terceiro post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": true
+      "featured": true,
+      "author": "Anderson Vieira"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "slug": "titulo-do-quarto-post",
       "sumary": "Conteúdo do quarto post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": false
+      "featured": false,
+      "author": "Anderson Vieira"
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "slug": "titulo-do-quinto-post",
       "sumary": "Conteúdo do quinto post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": false
+      "featured": false,
+      "author": "Anderson Vieira"
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "slug": "titulo-do-sexto-post",
       "sumary": "Conteúdo do sexto post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": false
+      "featured": false,
+      "author": "Anderson Vieira"
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "slug": "titulo-do-setimo-post",
       "sumary": "Conteúdo do sétimo post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": true
+      "featured": true,
+      "author": "Anderson Vieira"
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "slug": "titulo-do-oitavo-post",
       "sumary": "Conteúdo do oitavo post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": false
+      "featured": false,
+      "author": "Anderson Vieira"
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "slug": "titulo-do-nono-post",
       "sumary": "Conteúdo do nono post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": false
+      "featured": false,
+      "author": "Anderson Vieira"
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "slug": "titulo-do-decimo-post",
       "sumary": "Conteúdo do décimo post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": false
+      "featured": false,
+      "author": "Anderson Vieira"
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "slug": "titulo-do-decimo-primeiro-post",
       "sumary": "Conteúdo do décimo primeiro post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": false
+      "featured": false,
+      "author": "Anderson Vieira"
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "slug": "titulo-do-decimo-segundo-post",
       "sumary": "Conteúdo do décimo primeiro post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": false
+      "featured": false,
+      "author": "Anderson Vieira"
     }
   ]
 }
