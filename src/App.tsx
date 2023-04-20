@@ -1,15 +1,39 @@
 import "./styles/global.css";
+import { IoMoonOutline, IoSunny } from "react-icons/io5";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from "react";
+import Navbar from "./components/Navbar";
 import Home from "./Pages/Home";
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 import PostContent from "./components/Post/PostContent";
 
 export default function App() {
+  const [darkMode, setDarkMode] = useState<boolean>(true);
+
+  function toggleDarkMode() {
+    setDarkMode((prevDarkMode) => !prevDarkMode);
+  }
+
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/post/:id" element={<PostContent />} />
-      </Routes>
-    </BrowserRouter>
+    <section className={`${darkMode ? "dark" : "light"}`}>
+      <BrowserRouter>
+        <Navbar dark={darkMode} />
+        <div className="text-right p-6">
+          <button
+            aria-label="Change between dark and light mode"
+            onClick={toggleDarkMode}
+          >
+            {darkMode ? (
+              <IoSunny size={24} className="text-zinc-50" />
+            ) : (
+              <IoMoonOutline size={24} />
+            )}
+          </button>
+        </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/post/:id" element={<PostContent />} />
+        </Routes>
+      </BrowserRouter>
+    </section>
   );
 }

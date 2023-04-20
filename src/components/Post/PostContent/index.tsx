@@ -1,23 +1,14 @@
 import { useParams } from "react-router-dom";
 import postData from "../../../data/posts.json";
 import { IPosts } from "src/common/interfaces/IPosts";
-import Navbar from "../../Navbar";
-import { useState } from "react";
 
 export default function PostContent() {
   const data = postData as IPosts;
   const { id } = useParams();
   const postId = Number(id);
 
-  const [darkMode, setDarkMode] = useState<boolean>(true);
-
-  function toggleDarkMode() {
-    setDarkMode((prevDarkMode) => !prevDarkMode);
-  }
-
   return (
-    <section className={`${darkMode ? "dark" : "light"}`}>
-      <Navbar dark={darkMode} />
+    <section>
       <div className="text-right p-6">
         {data.posts.map(
           (post) =>
