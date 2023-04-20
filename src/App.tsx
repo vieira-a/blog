@@ -5,6 +5,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./Pages/Home";
 import PostContent from "./components/Post/PostContent";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState<boolean>(true);
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/post/:slug" element={<PostContent />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </section>
   );

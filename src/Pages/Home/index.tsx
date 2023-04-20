@@ -1,6 +1,5 @@
 import Hero from "../../components/Hero";
 import Post from "../../components/Post";
-import Footer from "../../components/Footer";
 import Newsletter from "../../components/Newsletter";
 
 export default function Home() {
@@ -9,7 +8,6 @@ export default function Home() {
       <Hero />
       <Post />
       <Newsletter />
-      <Footer />
     </main>
   );
 }
