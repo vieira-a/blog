@@ -67,17 +67,17 @@
       "slug": "titulo-do-setimo-post",
       "sumary": "Conteúdo do sétimo post. Deve conter no máximo 3 linhas",
       "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": true,
+      "featured": false,
       "author": "Anderson Vieira"
     },
     {
       "id": 8,
       "date": "19/04/2023",
-      "title": "Titulo do oitavo post",
-      "slug": "titulo-do-oitavo-post",
-      "sumary": "Conteúdo do oitavo post. Deve conter no máximo 3 linhas",
-      "content": "Conteúdo completo do post que vai ser carregado ao clicar no post para exibi-lo por completo.",
-      "featured": false,
+      "title": "Cheguei a mil commits no GitHub ",
+      "slug": "cheguei-a-mil-commits-no-github",
+      "sumary": "1000 commits no Github não é tarefa fácil. Requer muita persistência e resiliência.",
+      "content": "Pra mim não é besteira!<br><br>Pra um cara de 39 anos apaixonado por programação, migrando de carreira, que trabalha 9 horas/dia, estuda cerca de 6 horas de domingo a domingo, aplica o que aprende em projetos sem deixar de ser marido, pai de 2 filhos...<br><br>Sim, isso acontece com tantas e tantas pessoas... por isso mesmo compartilho aqui essa conquista e, digo pra quem está no mesmo barco: orgulhe-se!<br><br>Não são commits perfeito (não existe código perfeito). O orgulho está na dedicação e empenho, na resiliência!",
+      "featured": true,
       "author": "Anderson Vieira"
     },
     {

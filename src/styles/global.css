@@ -30,6 +30,9 @@
     @apply text-zinc-900;
   }
 
+  .light h4 {
+    @apply text-zinc-900;
+  }
   .light p {
     @apply text-zinc-900;
   }
