@@ -12,7 +12,7 @@ export default function Post() {
 
   return (
     <>
-      <section className="mx-6 mb-8 p-6 bg-zinc-800/25 rounded-tl-2xl rounded-br-2xl border border-zinc-800">
+      <section className="mx-6 mb-8 p-6 bg-zinc-800/25 rounded-tl-2xl rounded-br-2xl border border-zinc-800 md:w-[600px] md:mx-auto">
         <h2>Destaques</h2>
         <ul className="flex flex-col gap-4 mt-4">
           {data.posts.map(

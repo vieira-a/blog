@@ -8,7 +8,7 @@ export default function PostContent() {
   const { slug } = useParams();
 
   return (
-    <section className="w-full h-full pb-6">
+    <section className="w-full h-full pb-6 md:w-[600px] mx-auto">
       <div className="p-6">
         {data.posts.map(
           (post) =>

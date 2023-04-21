@@ -11,7 +11,7 @@ export default function PostCard({
   slug,
 }: IPostsCard) {
   return (
-    <div className="flex flex-col gap-4 py-4">
+    <div className="flex flex-col gap-4 py-4 md:w-[600px] mx-auto">
       <p>{date}</p>
       <h2>
         <Link to={`/post/${slug}`}>{title}</Link>
