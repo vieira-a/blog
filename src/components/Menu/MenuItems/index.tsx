@@ -21,7 +21,10 @@ export default function MenuItems({ className }: MenuItemsProps) {
   return (
     <ul className={className}>
       {menuList.map((item) => (
-        <li className="hover:text-purple-700" key={item.id}>
+        <li
+          className="hover:text-purple-700 md:hover:text-zinc-900 md:duration-300"
+          key={item.id}
+        >
           <a href="">{item.name}</a>
         </li>
       ))}

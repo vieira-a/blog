@@ -2,7 +2,7 @@ import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col gap-4 px-6 py-4 md:w-[600px] mx-auto">
+    <section className="flex flex-col gap-4 px-6 py-4 md:w-[600px] mx-auto ">
       <h1 className="text-2xl text-zinc-50 font-bold">
         Desenvolvendo ideias, devaneios e experiências
       </h1>

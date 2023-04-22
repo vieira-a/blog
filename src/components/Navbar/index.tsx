@@ -15,20 +15,23 @@ export default function Navbar({ dark }: NavbarProps) {
     }
   };
 
+  console.log(openMenu);
   return (
     <nav
-      className={`bg-purple-800 flex justify-between px-3 py-5 rounded-bl-xl rounded-tr-xl cursor-pointer ${
-        dark ? "dark" : "light"
-      }`}
+      className={`bg-purple-800 flex justify-between px-3 py-5 rounded-bl-xl rounded-tr-xl cursor-pointer md:fixed md:w-full
+      ${dark ? "dark" : "light"}`}
     >
       <Logo />
       {openMenu ? (
         <Menu open={openMenu} setOpen={handleMenu} dark={dark} />
       ) : (
-        <button onClick={handleMenu}>
+        <button onClick={handleMenu} className="md:hidden">
           <IoApps className="text-2xl" />
         </button>
       )}
+      <div className="hidden md:block md:text-zinc-50">
+        <Menu open={openMenu} setOpen={handleMenu} dark={dark} />
+      </div>
     </nav>
   );
 }
