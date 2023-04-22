@@ -10,6 +10,15 @@
     @apply text-base;
   }
 
+  a {
+    @apply transition duration-300;
+  }
+
+  button {
+    @apply hover:opacity-80;
+    @apply transition duration-300;
+  }
+
   h1 {
     @apply text-2xl;
   }
