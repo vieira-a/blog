@@ -15,7 +15,7 @@ export default function Menu({ open, setOpen, dark }: MenuProps) {
         dark ? "dark" : "light"
       }`}
     >
-      <div className="flex justify-between md:hidden">
+      <div className="flex justify-between md:invisible">
         <Logo />
         <button onClick={setOpen}>
           <IoClose className="text-3xl" />

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { NavbarProps } from "src/common/interfaces/INavbar";
 import Logo from "../Logo";
 import Menu from "../Menu";
+import { Link } from "react-router-dom";
 
 export default function Navbar({ dark }: NavbarProps) {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
@@ -16,21 +17,20 @@ export default function Navbar({ dark }: NavbarProps) {
   };
 
   return (
-    <nav
-      className={`bg-purple-800 flex justify-between px-3 py-5 rounded-bl-xl rounded-tr-xl cursor-pointer md:fixed md:w-full
+    <>
+      <nav
+        className={`bg-purple-800 flex justify-between px-3 py-5 rounded-bl-xl rounded-tr-xl cursor-pointer md:fixed md:w-full
       ${dark ? "dark" : "light"}`}
-    >
-      <Logo />
-      {openMenu ? (
-        <Menu open={openMenu} setOpen={handleMenu} dark={dark} />
-      ) : (
-        <button onClick={handleMenu} className="md:hidden">
-          <IoApps className="text-2xl" />
-        </button>
-      )}
-      <div className="hidden md:block md:text-zinc-50">
-        <Menu open={openMenu} setOpen={handleMenu} dark={dark} />
-      </div>
-    </nav>
+      >
+        <Logo />
+        {openMenu ? (
+          <Menu open={openMenu} setOpen={handleMenu} dark={dark} />
+        ) : (
+          <button onClick={handleMenu}>
+            <IoApps className="text-2xl" />
+          </button>
+        )}
+      </nav>
+    </>
   );
 }
