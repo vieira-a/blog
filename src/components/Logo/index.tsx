@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 export default function Logo() {
   return (
     <h1 className="text-2xl text-zinc-50">
-      <a href="/">
+      <Link to="/">
         <b>aspira.</b>dev
-      </a>
+      </Link>
     </h1>
   );
 }
